@@ -2,7 +2,7 @@
   "name": "kaia-face.js",
   "version": "0.1.0",
   "description": "Robot face animation library for Kaia.ai",
-  "main": "kaia.js",
+  "main": "./dist/kaia-face.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,13 @@
     "type": "git",
     "url": "git+https://github.com/kaiaai/kaia-face.js.git"
   },
+  "keywords": [
+    "kaia.ai",
+    "robotics",
+    "robot",
+    "kaia",
+    "animation"
+  ],
   "author": "OOMWOO LLC",
   "license": "Apache-2.0",
   "homepage": "https://github.com/kaiaai/kaia-face.js",
