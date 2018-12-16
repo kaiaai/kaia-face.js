@@ -89,7 +89,7 @@
 
 
   // Manually de-duplicate identical string vars
-  var happyBackground = "/uploads/oomwoo/face/img/happy/background-min.png";
+  var happyBackground = "img/happy/background-min.png";
 
   this.defineExpression(
 									"annoyed",
@@ -97,8 +97,8 @@
 										"elements" : [
 
 															{ "name" : "background"	,	"image"	:happyBackground 					,"static"  : true		},
-															{ "name" : "left-eye" 		,	"image"	:"/uploads/oomwoo/face/img/annoyed/left-eye.png"						,"pupil_x": 122			,"pupil_y": 198.5		,"static" : false	},
-															{ "name" : "right-eye" 		,	"image"	:"/uploads/oomwoo/face/img/annoyed/right-eye.png"						,"pupil_x": 112			,"pupil_y": 236		,"static" : false	}
+															{ "name" : "left-eye" 		,	"image"	:"img/annoyed/left-eye.png"						,"pupil_x": 122			,"pupil_y": 198.5		,"static" : false	},
+															{ "name" : "right-eye" 		,	"image"	:"img/annoyed/right-eye.png"						,"pupil_x": 112			,"pupil_y": 236		,"static" : false	}
 
 										] ,
 										"gaze-base": 0.5
@@ -110,8 +110,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,	"image"	:happyBackground 					,"static"  : true		},
-															{ "name" : "left-eye" 		,	"image"	:"/uploads/oomwoo/face/img/anxious/left-eye.png"							,"pupil_x": 122			,"pupil_y": 244.5		,"static" : false	},
-															{ "name" : "right-eye" 		,	"image"	:"/uploads/oomwoo/face/img/anxious/right-eye.png"						,"pupil_x": 122			,"pupil_y": 244.5		,"static" : false	}
+															{ "name" : "left-eye" 		,	"image"	:"img/anxious/left-eye.png"							,"pupil_x": 122			,"pupil_y": 244.5		,"static" : false	},
+															{ "name" : "right-eye" 		,	"image"	:"img/anxious/right-eye.png"						,"pupil_x": 122			,"pupil_y": 244.5		,"static" : false	}
 
 										],
 										"gaze-base": 0.5
@@ -123,8 +123,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 				,"static"  : true		},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/apologetic/left-eye.png"						,"pupil_x": 122			,"pupil_y": 310		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/apologetic/right-eye.png"					,"pupil_x": 122			,"pupil_y": 310		,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/apologetic/left-eye.png"						,"pupil_x": 122			,"pupil_y": 310		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/apologetic/right-eye.png"					,"pupil_x": 122			,"pupil_y": 310		,"static" : false	}
 
 										],
 										"gaze-base": 0.5
@@ -136,8 +136,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/awkward/left-eye.png"						,"pupil_x": 156			,"pupil_y": 211		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/awkward/right-eye.png"						,"pupil_x": 156			,"pupil_y": 211		,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/awkward/left-eye.png"						,"pupil_x": 156			,"pupil_y": 211		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/awkward/right-eye.png"						,"pupil_x": 156			,"pupil_y": 211		,"static" : false	}
 
 										],
 										"gaze-base": 0.5
@@ -148,9 +148,9 @@
 									"blinking",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/blinking/background.png" 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/blinking/left-eye.png"							,"pupil_x": 112.5			,"pupil_y": 16.5		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/blinking/right-eye.png"						,"pupil_x": 112.5			,"pupil_y": 16.5		,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/blinking/background.png" 					,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/blinking/left-eye.png"							,"pupil_x": 112.5			,"pupil_y": 16.5		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/blinking/right-eye.png"						,"pupil_x": 112.5			,"pupil_y": 16.5		,"static" : false	}
 
 										],
 										"gaze-base": 0.5
@@ -162,8 +162,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  : true															},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/bored/left-eye.png"							,"pupil_x": 116.5			,"pupil_y": 157	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/bored/right-eye.png"							,"pupil_x": 116.5			,"pupil_y": 314	,"static" : false	},
+															{ "name" : "left-eye" 		,		"image"	:"img/bored/left-eye.png"							,"pupil_x": 116.5			,"pupil_y": 157	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/bored/right-eye.png"							,"pupil_x": 116.5			,"pupil_y": 314	,"static" : false	},
 										],"gaze-base": 0.5
 									}
 
@@ -172,9 +172,9 @@
 									"crying",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/crying/background-min.png" 						,"static"  : true															},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/crying/left-eye.png"							,"pupil_x": 91.5			,"pupil_y": 196.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/crying/right-eye-crying.png"					,"pupil_x": 91.5			,"pupil_y": 196.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/crying/background-min.png" 						,"static"  : true															},
+															{ "name" : "left-eye" 		,		"image"	:"img/crying/left-eye.png"							,"pupil_x": 91.5			,"pupil_y": 196.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/crying/right-eye-crying.png"					,"pupil_x": 91.5			,"pupil_y": 196.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -184,9 +184,9 @@
 									"default",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/default/background.png" 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/default/left-eye.png"							,"pupil_x": 83.5			,"pupil_y": 83.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/default/right-eye.png"						,"pupil_x": 83.5			,"pupil_y": 83.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/default/background.png" 					,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/default/left-eye.png"							,"pupil_x": 83.5			,"pupil_y": 83.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/default/right-eye.png"						,"pupil_x": 83.5			,"pupil_y": 83.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -197,8 +197,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 				,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/determined/left-eye.png"					,"pupil_x": 112 			,"pupil_y": 206.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/determined/right-eye.png"					,"pupil_x": 112			,"pupil_y": 206.5	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/determined/left-eye.png"					,"pupil_x": 112 			,"pupil_y": 206.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/determined/right-eye.png"					,"pupil_x": 112			,"pupil_y": 206.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -208,9 +208,9 @@
 									"embarrased",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/embarrased/background-min.png" 				,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/embarrased/left-eye.png"					,"pupil_x": 116.5 			,"pupil_y": 232.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/embarrased/right-eye.png"					,"pupil_x": 116.5 			,"pupil_y": 232.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/embarrased/background-min.png" 				,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/embarrased/left-eye.png"					,"pupil_x": 116.5 			,"pupil_y": 232.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/embarrased/right-eye.png"					,"pupil_x": 116.5 			,"pupil_y": 232.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -220,9 +220,9 @@
 									"evil",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/evil/background-min.png" 							,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/evil/left-eye.png"								,"pupil_x": 224.5 			,"pupil_y": 190.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/evil/right-eye.png"								,"pupil_x": 224.5 			,"pupil_y": 190.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/evil/background-min.png" 							,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/evil/left-eye.png"								,"pupil_x": 224.5 			,"pupil_y": 190.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/evil/right-eye.png"								,"pupil_x": 224.5 			,"pupil_y": 190.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -233,8 +233,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/excited/left-eye.png"							,"pupil_x": 199 				,"pupil_y": 258	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/excited/right-eye.png"						,"pupil_x": 199 				,"pupil_y": 258	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/excited/left-eye.png"							,"pupil_x": 199 				,"pupil_y": 258	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/excited/right-eye.png"						,"pupil_x": 199 				,"pupil_y": 258	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -244,9 +244,9 @@
 									"exhausted",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/exhausted/background-min.png" 				,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/exhausted/left-eye.png"						,"pupil_x": 116.5 		,"pupil_y": 105.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/exhausted/right-eye.png"					,"pupil_x": 116.5 		,"pupil_y": 105.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/exhausted/background-min.png" 				,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/exhausted/left-eye.png"						,"pupil_x": 116.5 		,"pupil_y": 105.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/exhausted/right-eye.png"					,"pupil_x": 116.5 		,"pupil_y": 105.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -257,8 +257,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/flustered/left-eye.png"						,"pupil_x"	: 169.5		,"pupil_y": 198	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/flustered/right-eye.png"						,"pupil_x"	: 169.5 		,"pupil_y": 198	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/flustered/left-eye.png"						,"pupil_x"	: 169.5		,"pupil_y": 198	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/flustered/right-eye.png"						,"pupil_x"	: 169.5 		,"pupil_y": 198	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -268,9 +268,9 @@
 									"furious",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/furious/background-min.png" 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/furious/left-eye.png"							,"pupil_x": 91				,"pupil_y": 196		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/furious/right-eye.png"						,"pupil_x": 91 			,"pupil_y": 196		,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/furious/background-min.png" 					,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/furious/left-eye.png"							,"pupil_x": 91				,"pupil_y": 196		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/furious/right-eye.png"						,"pupil_x": 91 			,"pupil_y": 196		,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -281,8 +281,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/giggle/left-eye.png"							,"pupil_x"	: 122		,"pupil_y": 88		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/giggle/right-eye.png"							,"pupil_x"	: 122		,"pupil_y": 88		,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/giggle/left-eye.png"							,"pupil_x"	: 122		,"pupil_y": 88		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/giggle/right-eye.png"							,"pupil_x"	: 122		,"pupil_y": 88		,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -293,8 +293,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/happy/left-eye.png"							,"pupil_x": 207			,"pupil_y": 96		,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/happy/right-eye.png"							,"pupil_x": 207 			,"pupil_y": 96		,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/happy/left-eye.png"							,"pupil_x": 207			,"pupil_y": 96		,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/happy/right-eye.png"							,"pupil_x": 207 			,"pupil_y": 96		,"static" : false	}
 
 										],
 										"gaze-base": 0.5
@@ -305,9 +305,9 @@
 									"in-love",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/in-love/background-min.png" 					,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/in-love/left-eye.png"							,"pupil_x": 251			,"pupil_y": 214.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/in-love/right-eye.png"						,"pupil_x": 251 			,"pupil_y": 214.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/in-love/background-min.png" 					,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/in-love/left-eye.png"							,"pupil_x": 251			,"pupil_y": 214.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/in-love/right-eye.png"						,"pupil_x": 251 			,"pupil_y": 214.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -318,8 +318,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 				,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/mischievous/left-eye.png"					,"pupil_x": 121			,"pupil_y": 274.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/mischievous/right-eye.png"					,"pupil_x": 121			,"pupil_y": 274.5	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/mischievous/left-eye.png"					,"pupil_x": 121			,"pupil_y": 274.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/mischievous/right-eye.png"					,"pupil_x": 121			,"pupil_y": 274.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -329,9 +329,9 @@
 									"realized-something",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/realized-something/background-min.png" 	,"static"  : true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/realized-something/left-eye.png"			,"pupil_x": 167.5 		,"pupil_y": 299.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/realized-something/right-eye.png"		,"pupil_x": 167.5 		,"pupil_y": 299.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/realized-something/background-min.png" 	,"static"  : true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/realized-something/left-eye.png"			,"pupil_x": 167.5 		,"pupil_y": 299.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/realized-something/right-eye.png"		,"pupil_x": 167.5 		,"pupil_y": 299.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -341,9 +341,9 @@
 									"sad",
 									{
 										"elements":[
-															{ "name" : "background"	,		"image"	:"/uploads/oomwoo/face/img/sad/background-min.png" 							,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/sad/left-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 196.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/sad/right-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 196.5	,"static" : false	}
+															{ "name" : "background"	,		"image"	:"img/sad/background-min.png" 							,"static"  	: true	},
+															{ "name" : "left-eye" 		,		"image"	:"img/sad/left-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 196.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/sad/right-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 196.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -354,8 +354,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"   	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/sassy/left-eye.png"							,"pupil_x"	: 97.5			,"pupil_y": 179.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/sassy/right-eye.png"							,"pupil_x"	: 97.5 			,"pupil_y": 179.5	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/sassy/left-eye.png"							,"pupil_x"	: 97.5			,"pupil_y": 179.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/sassy/right-eye.png"							,"pupil_x"	: 97.5 			,"pupil_y": 179.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -366,8 +366,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/scared/left-eye.png"							,"pupil_x"	: 197.5			,"pupil_y": 197.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/scared/right-eye.png"							,"pupil_x"	: 197.5			,"pupil_y": 197.5	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/scared/left-eye.png"							,"pupil_x"	: 197.5			,"pupil_y": 197.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/scared/right-eye.png"							,"pupil_x"	: 197.5			,"pupil_y": 197.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -378,8 +378,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/shocked/left-eye.png"						,"pupil_x"	: 91			,"pupil_y": 243	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/shocked/right-eye.png"						,"pupil_x"	: 91			,"pupil_y": 243	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/shocked/left-eye.png"						,"pupil_x"	: 91			,"pupil_y": 243	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/shocked/right-eye.png"						,"pupil_x"	: 91			,"pupil_y": 243	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -390,8 +390,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/snoozing/left-eye.png"						,"pupil_x"	: 207		,"pupil_y": 96	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/snoozing/right-eye.png"						,"pupil_x"	: 207		,"pupil_y": 96	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/snoozing/left-eye.png"						,"pupil_x"	: 207		,"pupil_y": 96	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/snoozing/right-eye.png"						,"pupil_x"	: 207		,"pupil_y": 96	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -402,8 +402,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 				,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/starstruck/left-eye.png"						,"pupil_x"	: 255.5 		,"pupil_y": 365	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/starstruck/right-eye.png"					,"pupil_x"	: 255 		,"pupil_y": 481	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/starstruck/left-eye.png"						,"pupil_x"	: 255.5 		,"pupil_y": 365	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/starstruck/right-eye.png"					,"pupil_x"	: 255 		,"pupil_y": 481	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -414,8 +414,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/stuck-up/left-eye.png"						,"pupil_x"	: 209			,"pupil_y": 99	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/stuck-up/right-eye.png"						,"pupil_x"	: 209 		,"pupil_y": 99	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/stuck-up/left-eye.png"						,"pupil_x"	: 209			,"pupil_y": 99	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/stuck-up/right-eye.png"						,"pupil_x"	: 209 		,"pupil_y": 99	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -426,8 +426,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/thinking/left-eye.png"						,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/thinking/right-eye.png"						,"pupil_x"	: 91.5 		,"pupil_y": 364	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/thinking/left-eye.png"						,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/thinking/right-eye.png"						,"pupil_x"	: 91.5 		,"pupil_y": 364	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -438,8 +438,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/tired/left-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/tired/right-eye.png"							,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/tired/left-eye.png"								,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/tired/right-eye.png"							,"pupil_x"	: 91.5 		,"pupil_y": 122	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -450,8 +450,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/upset/left-eye.png"							,"pupil_x"	: 186			,"pupil_y": 71	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/upset/right-eye.png"							,"pupil_x"	: 186			,"pupil_y": 71	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/upset/left-eye.png"							,"pupil_x"	: 186			,"pupil_y": 71	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/upset/right-eye.png"							,"pupil_x"	: 186			,"pupil_y": 71	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -462,8 +462,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 					,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/winking/left-eye.png"							,"pupil_x"	: 91.5 		,"pupil_y": 243.5	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/winking/right-eye.png"						,"pupil_x"	: 206.5		,"pupil_y": 95.5	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/winking/left-eye.png"							,"pupil_x"	: 91.5 		,"pupil_y": 243.5	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/winking/right-eye.png"						,"pupil_x"	: 206.5		,"pupil_y": 95.5	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
@@ -474,8 +474,8 @@
 									{
 										"elements":[
 															{ "name" : "background"	,		"image"	:happyBackground 						,"static"  	: true	},
-															{ "name" : "left-eye" 		,		"image"	:"/uploads/oomwoo/face/img/wow/left-eye.png"								,"pupil_x"	: 92			,"pupil_y": 261	,"static" : false	},
-															{ "name" : "right-eye" 		,		"image"	:"/uploads/oomwoo/face/img/wow/right-eye.png"							,"pupil_x"	: 92 			,"pupil_y": 261	,"static" : false	}
+															{ "name" : "left-eye" 		,		"image"	:"img/wow/left-eye.png"								,"pupil_x"	: 92			,"pupil_y": 261	,"static" : false	},
+															{ "name" : "right-eye" 		,		"image"	:"img/wow/right-eye.png"							,"pupil_x"	: 92 			,"pupil_y": 261	,"static" : false	}
 
 										],"gaze-base": 0.5
 									}
