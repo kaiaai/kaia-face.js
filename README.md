@@ -1,3 +1,7 @@
+[![](https://img.shields.io/npm/v/kaia-face.js.svg)](https://www.npmjs.com/package/kaia-face.js)
+[![](https://img.shields.io/npm/dw/kaia-face.js.svg)](https://www.npmjs.com/package/kaia-face.js)
+[![](https://img.shields.io/npm/l/kaia-face.js.svg)](https://www.npmjs.com/package/kaia-face.js)
+
 # kaia-face.js
 Animated robot face to convey various emotional expressions, control gaze direction.
 
