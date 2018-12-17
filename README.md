@@ -81,7 +81,8 @@ face.setAnimation("*","fluctuating-upper",{enabled:true,elements:["right-eye"],
 face.setAnimation("*","twitching-lower",{enabled:true,elements:["left-eye","right-eye"],
   "average-delay":3000,duration:500,left:0.3,easing:"ease-in"}); // continuous
 face.setAnimation("*","snoozing",{enabled:true,elements:["right-eye"],
-  "average-delay":2000,duration:3000,easing:'ease-out',left:-0.3,top:-0.3,"font-size":40,color:'cyan',random:false}); // continuous
+  "average-delay":2000,duration:3000,easing:'ease-out',left:-0.3,top:-0.3,
+  "font-size":40,color:'cyan',random:false}); // continuous
 face.unsetAnimation('*', true);
 ````
 
