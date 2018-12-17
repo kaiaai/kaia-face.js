@@ -27,14 +27,12 @@ Sets displayed expression. There are 32 expressions implemented and available, s
 const expressions = ['annoyed', 'anxious', 'apologetic', 'awkward', 'blinking', 'bored', 'crying',
   'default', 'determined', 'embarrased', 'evil', 'excited', 'exhausted', 'flustered', 'furious',
   'giggle', 'happy', 'in-love', 'mischievous', 'realized-something', 'sad', 'sassy', 'scared',
-  'shocked', 'snoozing', 'starstruck', 'stuck-up', 'thinking', 'tired', 'upset', 'winking', 'wow];
+  'shocked', 'snoozing', 'starstruck', 'stuck-up', 'thinking', 'tired', 'upset', 'winking', 'wow'];
 
 face.setExpression('wow');
-// ... some time later ...
+// ... some time later
 face.setExpression('bored'); // change expression
 ````
-
-
 
 ### Synonyms
 A shortcut to add new expressions without much work. Take an expression that is not implemented and map it to one of existing expressions.
