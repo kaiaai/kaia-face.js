@@ -1,6 +1,7 @@
 src/
 bundle/
 base64/
+doc/
 gulpfile.js
 yarn.lock
 package-lock.json
