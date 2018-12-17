@@ -4,8 +4,7 @@ Animated robot face to convey various emotional expressions, control gaze direct
 ## Use in Browser
 ```js
 <script src="kaia-face.min.js"></script>
-const faceSize = Math.min(window.innerWidth, window.innerHeight);
-const face = new Face({face_width:faceSize,face_height:faceSize});
+const face = new Face({face_width:100,face_height:100});
 face.setGazeSpeed('default', 10000, 'linear');  // default eye movement speed
 
 face.setExpression('wow');
@@ -16,6 +15,27 @@ face.unsetGazeDirection(); // stare ahead
 ````
 
 ## API
+### Create
+Creates face object and sets its size.
+```js
+const face = new Face({face_width:100, face_height:100});
+````
+### Expression Control
+Sets displayed expression. There are 32 expressions implemented and available, see below.
+```js
+// List of implemented expressions
+const expressions = ['annoyed', 'anxious', 'apologetic', 'awkward', 'blinking', 'bored', 'crying',
+  'default', 'determined', 'embarrased', 'evil', 'excited', 'exhausted', 'flustered', 'furious',
+  'giggle', 'happy', 'in-love', 'mischievous', 'realized-something', 'sad', 'sassy', 'scared',
+  'shocked', 'snoozing', 'starstruck', 'stuck-up', 'thinking', 'tired', 'upset', 'winking', 'wow];
+
+face.setExpression('wow');
+// ... some time later ...
+face.setExpression('bored'); // change expression
+````
+
+
+
 ### Synonyms
 A shortcut to add new expressions without much work. Take an expression that is not implemented and map it to one of existing expressions.
 ```js
