@@ -38,6 +38,51 @@ face.setExpression('wow');
 face.setExpression('bored'); // change expression
 ````
 
+| ![annoyed](doc/img/annoyed%20240x240.png?raw=true "default") | ![anxious](doc/img/anxious%20240x240.png?raw=true "anxious") | ![apologetic](doc/img/apologetic%20240x240.png?raw=true "apologetic")  |
+|:-------------:|:-------------:|:-----:|
+| annoyed | anxious | apologetic |
+
+| ![awkward](doc/img/awkward%20240x240.png?raw=true "awkward") | ![blinking](doc/img/blinking%20240x240.png?raw=true "blinking") | ![bored](doc/img/bored%20240x240.png?raw=true "bored")  |
+|:-------------:|:-------------:|:-----:|
+| awkward | blinking | bored |
+
+| ![crying](doc/img/crying%20240x240.png?raw=true "crying") | ![default](doc/img/default%20240x240.png?raw=true "default") | ![determined](doc/img/determined%20240x240.png?raw=true "determined")  |
+|:-------------:|:-------------:|:-----:|
+| crying | default | determined |
+
+| ![embarrased](doc/img/embarrased%20240x240.png?raw=true "embarrased") | ![evil](doc/img/evil%20240x240.png?raw=true "evil") | ![excited](doc/img/excited%20240x240.png?raw=true "excited")  |
+|:-------------:|:-------------:|:-----:|
+| embarrased | evil | excited |
+
+| ![exhausted](doc/img/exhausted%20240x240.png?raw=true "exhausted") | ![flustered](doc/img/flustered%20240x240.png?raw=true "flustered") | ![furious](doc/img/furious%20240x240.png?raw=true "furious")  |
+|:-------------:|:-------------:|:-----:|
+| exhausted | flustered | furious |
+
+| ![giggle](doc/img/giggle%20240x240.png?raw=true "giggle") | ![happy](doc/img/happy%20240x240.png?raw=true "happy") | ![in-love](doc/img/in-love%20240x240.png?raw=true "in-love")  |
+|:-------------:|:-------------:|:-----:|
+| giggle | happy | in-love |
+
+| ![mischievous](doc/img/mischievous%20240x240.png?raw=true "mischievous") | ![realized-something](doc/img/realized-something%20240x240.png?raw=true "realized-something") | ![sad](doc/img/sad%20240x240.png?raw=true "sad")  |
+|:-------------:|:-------------:|:-----:|
+| mischievous | realized-something | sad |
+
+| ![sassy](doc/img/sassy%20240x240.png?raw=true "sassy") | ![scared](doc/img/scared%20240x240.png?raw=true "scared") | ![shocked](doc/img/shocked%20240x240.png?raw=true "shocked")  |
+|:-------------:|:-------------:|:-----:|
+| sassy | scared | shocked |
+
+| ![snoozing](doc/img/snoozing%20240x240.png?raw=true "snoozing") | ![starstruck](doc/img/starstruck%20240x240.png?raw=true "starstruck") | ![stuck-up](doc/img/stuck-up%20240x240.png?raw=true "stuck-up")  |
+|:-------------:|:-------------:|:-----:|
+| snoozing | starstruck | stuck-up |
+
+| ![thinking](doc/img/thinking%20240x240.png?raw=true "thinking") | ![tired](doc/img/tired%20240x240.png?raw=true "tired") | ![upset](doc/img/upset%20240x240.png?raw=true "upset")  |
+|:-------------:|:-------------:|:-----:|
+| thinking | tired | upset |
+
+| ![winking](doc/img/winking%20240x240.png?raw=true "winking") | ![wow](doc/img/wow%20240x240.png?raw=true "wow") |
+|:-------------:|:-------------:|
+| winking | wow |
+
+
 ### Gaze Direction Control
 Set gaze direction as follows:
 ```js
