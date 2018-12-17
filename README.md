@@ -5,7 +5,7 @@ Animated robot face to convey various emotional expressions, control gaze direct
 ```js
 <script src="kaia-face.min.js"></script>
 const face = new Face({face_width:100,face_height:100});
-face.setGazeSpeed('default', 10000, 'linear');  // default eye movement speed
+face.setGazeSpeed('default', 100, 'linear');  // default eye movement speed
 
 face.setExpression('wow');
 face.setGazeDirection(0.4, 0.5); // look left: range 0...1, 0.5, 0.5 is center 
@@ -34,6 +34,38 @@ face.setExpression('wow');
 face.setExpression('bored'); // change expression
 ````
 
+### Gaze Direction Control
+Set gaze direction as follows:
+```js
+// set gaze speed for 'wow' expression; usable speed ranges ~10...100
+face.setGazeSpeed('wow', 50, 'linear');
+// Make eyes move to (0.4, 0.5)
+face.setGazeDirection(0.4, 0.5); // x, y range 0...1.0, where (0.5, 0.5) is center
+// ... later
+face.unsetGazeDirection(); // stare ahead, at (0.5 0.5)
+````
+
+### Animations
+Besides eyes being able to change gaze direction, eyes can be animated.
+```js
+const animations = ['wink', 'widen', 'eye-roll', 'tear-drop', 'blinking', 'fluctuating',
+  'fluctuating-upper', 'twitching-lower', 'snoozing'];
+
+// 'wow' expression will use 'widen' animation for eyes
+face.setAnimation('wow', 'widen', {enabled:true});
+face.playAnimation(); // manually trigger eye animation in current expression
+face.unsetAnimation('wow', true); // clear animations previously set for 'wow'
+````
+
+### Animation Effects
+Eye movement style can be modified by enabling animation effects.
+```js
+const animationEffects = ['swoosh', 'road-runner', 'splat', 'jelly', 'bounce'];
+
+// Make eyes bounce as gaze direction changes when 'wow' expression is displayed
+face.setAnimationEffect('wow', 'bounce', {enabled:true});
+face.unsetAnimationEffect('wow', true); // clear eye animation effects associated with 'wow'
+````
 ### Synonyms
 A shortcut to add new expressions without much work. Take an expression that is not implemented and map it to one of existing expressions.
 ```js
